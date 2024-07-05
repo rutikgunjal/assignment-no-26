@@ -3,46 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>if-else</title>
+    <title>Switch Case</title>
 </head>
 <body>
     <script>
-        // 1.Program to find the largest number among two numbers
-        const num1 = parseFloat(prompt("Enter the first number:"));
-        const num2 = parseFloat(prompt("Enter the second number:"));
+        const num = parseInt(prompt('Enter Number'));
 
-       if (num1 > num2)
-        {
-        document.write(`${num1} is greater than ${num2}.`);
-        }
-         else
-        {
-        document.write(`${num2} is greater than ${num1}.`);
-        }
+switch (num) {
+case 0:
+document.write("Zero");
+break;
 
-         //  2.Program to find a given number that is odd or even
-         const num = parseInt(prompt("Enter Number: "));
+case 1:
+document.write("One");
+break;
 
-         if (num % 2 == 0)
-        {
-         document.write("Number is Even");
-        } 
-        else
-        {
-         document.write("Number is Odd");
-        }
+case 2:
+document.write("Two");
+break;
 
-        // 3.Program to find given number is positive or negative
-        const number = parseInt(prompt("Enter Number: "));
+case 3:
+document.write("Three");
+break;
 
-        if (number >= 0)
-        {
-        document.write("Positive Number");
-        }
-        else
-        {
-        document.write("Negative Number");
-        }
+case 4:
+document.write("Four");
+break;
+
+case 5:
+document.write("Five");
+break;
+
+case 6:
+document.write("Six");
+break;
+
+case 7:
+document.write("Seven");
+break;
+
+case 8:
+document.write("Eight");
+break;
+
+case 9:
+document.write("Nine");
+break;
+
+default:
+document.write("wrong input");
+break;
+}
     </script>
+    
 </body>
 </html>
